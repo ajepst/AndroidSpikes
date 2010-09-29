@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Drums!!"/>
+    <Button
+        android:id="@+id/snare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:text="Snare!" />
+    <Button
+    android:id="@+id/kick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/snare"
+        android:layout_alignTop="@id/snare"
+        android:text="Kick!" />
+    <Button
+    android:id="@+id/hihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/kick"
+        android:layout_alignTop="@id/kick"
+        android:text="Ting!" />
+</RelativeLayout> 
