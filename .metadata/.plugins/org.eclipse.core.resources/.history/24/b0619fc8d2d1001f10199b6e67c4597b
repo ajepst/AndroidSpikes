@@ -1,0 +1,71 @@
+package com.ajepst.howfar;
+
+import com.ajepst.drumkit.R;
+
+import android.app.Activity;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class HowFar extends Activity {
+	
+	Location storedLocation;
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        Button getnewloc = (Button)findViewById(R.id.getlocation);
+        getnewloc.setOnClickListener(GoGetLocation);
+        
+   }
+    
+    private OnClickListener snarePlayer = new OnClickListener() {
+
+		@Override
+		public void onClick(View v) {
+		    // Acquire a reference to the system Location Manager
+	        LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+
+	        // Define a listener that responds to location updates
+	        LocationListener locationListener = new LocationListener() {
+	            public void onLocationChanged(Location location) {
+	              // Called when a new location is found by the network location provider.
+	              makeUseOfNewLocation(location);
+	            }
+
+	            public void onStatusChanged(String provider, int status, Bundle extras) {}
+
+	            public void onProviderEnabled(String provider) {}
+
+	            public void onProviderDisabled(String provider) {}
+	          };
+
+	        // Register the listener with the Location Manager to receive location updates
+	        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
+	 
+		}
+    };
+
+
+	protected void makeUseOfNewLocation(Location location) {
+		
+		TextView text = (TextView)findViewById(R.id.location);
+		text.setText(location.toString());
+		TextView status = (TextView)findViewById(R.id.status);
+		float distanceTo = location.distanceTo(storedLocation);
+		
+		if (distanceTo > 400)
+			status.setText("you have moved more than 1/4 mile " + Float.toString(distanceTo));
+		else 
+			status.setText("you haven't moved much " + Float.toString(distanceTo));
+
+		storedLocation = location;
+	}
+}

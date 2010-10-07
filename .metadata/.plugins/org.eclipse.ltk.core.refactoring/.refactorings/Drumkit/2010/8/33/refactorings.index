@@ -1,0 +1,14 @@
+1281409857821	Rename resource '3146__robbiesurp__TAMA_Steel6.wav'
+1281409870647	Rename resource '38151__JCambs1990__Bass_Drum_Stomp.wav'
+1281410627602	Rename local variable 'button'
+1281411184150	Rename resource 'snare.wav'
+1281411194973	Rename resource 'kick.wav'
+1281412023294	Rename resource 'snarewav.wav'
+1281412031194	Rename resource '439__TicTacShutUp__prac_snare_2 (1).wav'
+1281412481656	Delete element
+1281412489378	Rename resource '812__bdu__OpenAndCloseHatAC.aif'
+1281412578169	Extract method 'playSound'
+1281412633792	Introduce parameter for 'playSound'
+1281413676247	Delete element
+1281413682847	Delete element
+1281415967931	Rename local variable 'i'

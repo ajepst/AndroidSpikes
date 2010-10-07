@@ -1,0 +1,5 @@
+1286081768919	Extract local variable 'contentDirUri'
+1286086384874	Infer generic type arguments
+1286087647463	Rename local variable 'bitmaps'
+1286087855205	Rename field 'bitmaps'
+1286088051532	Infer generic type arguments

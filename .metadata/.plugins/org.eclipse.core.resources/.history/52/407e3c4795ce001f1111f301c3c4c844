@@ -1,0 +1,9 @@
+package com.ajepst.callme;
+
+import android.app.Activity;
+import android.content.Context;
+
+public class PicturePicker extends Activity {
+	private Context myself;
+	private static final String TAG = "PicturePicker";
+}

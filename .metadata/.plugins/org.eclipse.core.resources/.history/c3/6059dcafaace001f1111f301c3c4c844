@@ -1,0 +1,71 @@
+package com.ajepst.callme;
+
+import java.io.InputStream;
+
+import android.app.Activity;
+import android.content.ContentUris;
+import android.content.Context;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class PicturePicker extends Activity {
+	private Context myself;
+	private static final String TAG = "PicturePicker";
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+    	Log.d(TAG, "start picturepicker");
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.picturepicker);
+        myself = this;
+        
+		String[] projection = new String[] {
+				ContactsContract.Contacts._ID,
+				ContactsContract.Contacts.LOOKUP_KEY,
+				ContactsContract.Contacts.DISPLAY_NAME,
+				ContactsContract.Contacts.PHOTO_ID, };
+
+		Uri contacts = ContactsContract.Contacts.CONTENT_URI;
+		Cursor cur = managedQuery(contacts, projection, "Starred = 1",
+				null, null);
+		getColumnData(cur);
+    }
+   
+    
+    private void getColumnData(Cursor cur){ 
+        
+    	Log.d(TAG, "getting data");
+    	if (cur.moveToFirst()) {
+
+            String name; 
+            Strin id;
+           // String phoneNumber; 
+            int nameColumn = cur.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME); 
+            int picColumn = cur.getColumnIndex(ContactsContract.Contacts.PHOTO_ID);
+            int idColumn = cur.getColumnIndex(ContactsContract.Contacts._ID);
+            String imagePath; 
+        
+            do {
+                // Get the field values
+                name = cur.getString(nameColumn);
+                imagePath = cur.getString(picColumn);
+                id =  cur.getString(idColumn);
+               Log.d(TAG, "starred name: " + name);
+               Log.d(TAG, "image: " + imagePath);
+               Uri contactUri = ContentUris.withAppendedId(ContactsContract.Contacts.CONTENT_URI, id);
+               Uri photoDirUri = Uri.withAppendedPath(contactUri, ContactsContract.Contacts.Photo.CONTENT_DIRECTORY);
+               Uri photoUri = Uri.withAppendedPath(photoDirUri, imagePath);
+               //Bitmap bm = BitmapFactory.decodeResource(context.getResources(), drawable);
+            } while (cur.moveToNext());
+
+        }
+    }
+}

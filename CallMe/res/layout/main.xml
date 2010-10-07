@@ -5,10 +5,18 @@
     android:layout_height="fill_parent"
     >
       <Button
-        android:id="@+id/AnneCaller"
+        android:id="@+id/information"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="10dip"
-        android:text="Anne!" />
+        android:text="Operator!" />
+      <Button
+        android:id="@+id/information2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:text="Favorites!" />
+
 </LinearLayout>

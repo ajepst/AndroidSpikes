@@ -1,0 +1,95 @@
+package com.ajepst.callme;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class CallPicker extends Activity {
+    /** Called when the activity is first created. */
+	private Context myself;
+	private static final String TAG = "CallPicker";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        Log.d(TAG, "created");
+        Button caller = (Button)findViewById(R.id.information);
+        caller.setOnClickListener(phoneCaller);
+
+      //  Button caller2 = (Button)findViewById(R.id.information2);
+      //  caller2.setOnClickListener(contactCaller);
+    }
+    
+    private OnClickListener phoneCaller = new OnClickListener() {
+		@Override
+		public void onClick(View v) {
+			String url = createTelUrl("7034058170");
+			if (url == null) {
+			return;
+			}
+			Log.d(TAG, "go this far, anyway");
+			Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse(url));
+			intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+			//intent.setClass(myself);
+			myself.startActivity(intent);
+			
+		}
+    };
+
+    
+    private OnClickListener contactCaller = new OnClickListener() {
+    @Override
+		public void onClick(View v) {
+       
+    	String[] projection = new String[] {
+    			ContactsContract.Contacts.LOOKUP_KEY,
+                ContactsContract.Contacts.DISPLAY_NAME,
+                ContactsContract.Contacts.PHOTO_ID,
+             };
+    	
+    	Uri contacts = ContactsContract.Contacts.CONTENT_URI;
+        Cursor cur = managedQuery(contacts, projection, "Starred = 1", null, null);
+        getColumnData(cur);
+    }
+    };
+    
+    private void getColumnData(Cursor cur){ 
+        if (cur.moveToFirst()) {
+
+            String name; 
+           // String phoneNumber; 
+            int nameColumn = cur.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME); 
+           // int picColumn = cur.getColumnIndex(ContactsContract.Contacts.PHOTO_ID);
+           // String imagePath; 
+        
+            do {
+                // Get the field values
+                name = cur.getString(nameColumn);
+               // phoneNumber = cur.getString(picColumn);
+               Log.d(TAG, "starred name: " + name);
+            } while (cur.moveToNext());
+
+        }
+    }
+
+    
+
+    private String createTelUrl(String number) {
+      /*  if (String.isEmpty(number)) {
+            return null;
+        }*/
+
+        StringBuilder buf = new StringBuilder("tel:");
+        buf.append(number);
+        return buf.toString();
+    }
+}

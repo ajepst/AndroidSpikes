@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1281286324549
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286330471
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286352969
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1281286357978
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1281286359719
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286370797
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286370848
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1281286378617
+started,bundle,org.eclipse.jdt.junit.core,3.6.0.v20100526-0800,"org.eclipse.jdt.junit.core",1281286380808
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286380973
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286383680
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.DebugLast",1281286383689
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286385130
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286433117
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.RunLast",1281286433127
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286434741
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286438358
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.RunLast",1281286438383
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286438581
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286442301
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286442392
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286465372
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286465503
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1281286465567
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281286465587
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286483010
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281286486017
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324498254
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324500956
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324504137
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324506387
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324519288
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324525338
+started,bundle,org.eclipse.gef,3.6.0.v20100525-1225,"org.eclipse.gef",1281324530144
+started,bundle,org.eclipse.draw2d,3.6.0.v20100525-1225,"org.eclipse.draw2d",1281324530207
+opened,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324531107
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324531504
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1281324551801
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1281324579002
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1281324596525
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1281324596961
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324599787
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1281324600337
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324604166
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324604735
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324605422
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324642951
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324649404
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1281324652021
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324662173
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.showInformation",1281324662187
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324664386
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324666135
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324666337
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324666537
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1281324668626
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324705664
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1281324706021
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1281324709483
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1281324728979
+closed,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324728979
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324730614
+opened,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324736051
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324736157
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1281324739799
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324742617
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1281324742617
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324744355
+opened,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324744603
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324744682
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324751605
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324752924
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324755178
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324756291
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324756744
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324765840
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324768114
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324769207
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324769234
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324769262
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324769287
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324769292
+opened,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1281324769328
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324769376
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1281324769390
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324772014
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324774053
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324777167
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324780421
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324780463
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324780476
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324780495
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324786818
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324788009
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324788138
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324790829
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324806785
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1281324812742
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324824203
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324831345
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1281324837217
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324838832
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324842205
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324842238
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324842252
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324842272
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324842304
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324842315
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324842320
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324842327
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324847884
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324847906
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324850037
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324850541
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324852091
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324860065
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324861514
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324861639
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1281324868965
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871228
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324871241
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871262
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871287
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871293
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871359
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871366
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871372
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324871377
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324871400
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1281324871404
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324873190
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324873315
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324874898
+closed,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1281324874898
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324880750
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324882594
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324886966
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.layout.LayoutEditor",1281324887005
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.RunLast",1281324891501
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324891513
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324893171
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324896393
+executed,command,org.eclipse.ui.ide,3.6.0.I20100601-0800,"org.eclipse.ui.project.closeProject",1281324900039
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1281324908840
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324910099
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915073
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324915086
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915107
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915128
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915134
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915140
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915147
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915153
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324915158
+opened,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1281324915192
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324915232
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1281324915275
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324917526
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324918798
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928297
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324928309
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928332
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928352
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928356
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928361
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928367
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928372
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324928378
+opened,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1281324928402
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324928441
+activated,editor,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.editors.resources.ResourcesEditor",1281324928449
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.window.newEditor",1281324928450
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324930080
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324930205
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324934163
+opened,editor,org.eclipse.wst.xml.ui,1.1.100.v201006030742,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1281324938982
+activated,editor,org.eclipse.wst.xml.ui,1.1.100.v201006030742,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1281324939169
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1281324941809
+opened,editor,org.eclipse.ui.editors,3.6.0.v20100520-0800,"org.eclipse.ui.DefaultTextEditor",1281324945985
+activated,editor,org.eclipse.ui.editors,3.6.0.v20100520-0800,"org.eclipse.ui.DefaultTextEditor",1281324946076
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction",1281324966203
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975556
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324975570
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975623
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975651
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975669
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975675
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975681
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975687
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975694
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975699
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975705
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975711
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975716
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975721
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324975728
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324978969
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324979423
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324979436
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324979459
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324979493
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jface"".",1281324979498
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281324984538
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1281324989123
+activated,editor,org.eclipse.ui.editors,3.6.0.v20100520-0800,"org.eclipse.ui.DefaultTextEditor",1281324991681
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20100423,"org.eclipse.ui.views.log",1281325004193
+opened,view,org.eclipse.ui.views.log,1.0.100.v20100423,"org.eclipse.pde.runtime.LogView",1281325004351
+activated,view,org.eclipse.ui.views.log,1.0.100.v20100423,"org.eclipse.pde.runtime.LogView",1281325004390
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.views.showView",1281325004390
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325013528
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325021638
+activated,editor,org.eclipse.ui.editors,3.6.0.v20100520-0800,"org.eclipse.ui.DefaultTextEditor",1281325022191
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325024796
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325032527
+closed,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325032753
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325035579
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325038050
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325040645
+closed,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1281325040737
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ant",1281325041103
+stopped,bundle,org.eclipse.ant.ui,3.5.0.v20100427,"org.eclipse.ant.ui",1281325041117
+stopped,bundle,org.eclipse.ant.launching,1.0.0.v20100427,"org.eclipse.ant.launching",1281325041118
+stopped,bundle,org.eclipse.compare.win32,1.0.100.I20100505-1245,"org.eclipse.compare.win32",1281325041125
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20100513,"org.eclipse.equinox.p2.ui.sdk",1281325041148
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.tasks",1281325041149
+stopped,bundle,org.eclipse.mylyn.java.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.ui",1281325041150
+stopped,bundle,com.android.ide.eclipse.adt,0.9.7.v201005071157-36220,"com.android.ide.eclipse.adt",1281325041151
+stopped,bundle,org.eclipse.jdt.junit,3.6.0.v20100526-0800,"org.eclipse.jdt.junit",1281325041151
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.300.v20100513-0845,"org.eclipse.jdt.apt.ui",1281325041152
+stopped,bundle,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui",1281325041154
+stopped,bundle,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui",1281325041165
+stopped,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1281325041165
+stopped,bundle,org.eclipse.wst.xsd.ui,1.2.303.v201004290328,"org.eclipse.wst.xsd.ui",1281325041168
+stopped,bundle,org.eclipse.wst.xml.ui,1.1.100.v201006030742,"org.eclipse.wst.xml.ui",1281325041168
+stopped,bundle,org.eclipse.wst.common.ui,1.1.500.v200911190730,"org.eclipse.wst.common.ui",1281325041170
+stopped,bundle,org.eclipse.wst.sse.ui,1.2.0.v201006030742,"org.eclipse.wst.sse.ui",1281325041234
+stopped,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1281325041234
+stopped,bundle,org.eclipse.mylyn.team.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.team.ui",1281325041234
+stopped,bundle,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.resources",1281325041239
+stopped,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1281325041239
+stopped,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1281325041239
+stopped,bundle,org.eclipse.mylyn.ide.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ui",1281325041240
+stopped,bundle,org.eclipse.mylyn.resources.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.resources.ui",1281325041243
+stopped,bundle,org.eclipse.mylyn.wikitext.tasks.ui,1.3.0.v20100608-0100-e3x,"org.eclipse.mylyn.wikitext.tasks.ui",1281325041244
+stopped,bundle,org.eclipse.mylyn.context.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.context.ui",1281325041244
+stopped,bundle,org.eclipse.mylyn.help.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.help.ui",1281325041245
+stopped,bundle,org.eclipse.mylyn.tasks.bugs,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.tasks.bugs",1281325041245
+stopped,bundle,org.eclipse.mylyn.tasks.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.tasks.ui",1281325041245
+stopped,bundle,org.eclipse.team.cvs.ui,3.3.300.I20100526-0800,"org.eclipse.team.cvs.ui",1281325041245
+stopped,bundle,org.eclipse.team.ui,3.5.100.I20100527-0800,"org.eclipse.team.ui",1281325041245

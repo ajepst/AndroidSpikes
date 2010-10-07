@@ -1,0 +1,26 @@
+package com.ajepst.callme;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.GridView;
+
+public class PicturePicker extends Activity {
+	private static final String TAG = "PicturePicker";
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+    	Log.d(TAG, "start picturepicker");
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.picturepicker);
+        myself = this;
+        
+        GridView gridview = (GridView) findViewById(R.id.gridview);
+        gridview.setAdapter(new ImageAdapter(this));
+
+    }
+   
+    
+
+}

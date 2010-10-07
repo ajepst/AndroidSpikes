@@ -1,0 +1,79 @@
+package com.ajepst.callme;
+
+import java.io.InputStream;
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.ContentUris;
+import android.content.Context;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.provider.ContactsContract.Contacts;
+import android.util.Log;
+import android.widget.GridView;
+
+public class PicturePicker extends Activity {
+	private static final String TAG = "PicturePicker";
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+    	Log.d(TAG, "start picturepicker");
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.picturepicker);
+
+		String[] projection = new String[] {
+				ContactsContract.Contacts._ID,
+				ContactsContract.Contacts.LOOKUP_KEY,
+				ContactsContract.Contacts.DISPLAY_NAME,
+				ContactsContract.Contacts.PHOTO_ID, };
+		
+		Uri contacts = ContactsContract.Contacts.CONTENT_URI;
+		Cursor cur = managedQuery(contacts, projection, "Starred = 1",
+				null, null);
+		Bitmap[] bitmaps = getColumnData(cur);
+		Log.d(TAG, "about to make imageadapter");
+        GridView gridview = (GridView) findViewById(R.id.gridview);
+        gridview.setAdapter(new ImageAdapter(this, bitmaps));
+
+    }
+   
+    private Bitmap[] getColumnData(Cursor cur){ 
+        ArrayList<Bitmap> bitmaps = new ArrayList<Bitmap>();
+    	Log.d(TAG, "getting data");
+    	if (cur.moveToFirst()) {
+
+            String name; 
+            Long id;
+           // String phoneNumber; 
+            int nameColumn = cur.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME); 
+            int picColumn = cur.getColumnIndex(ContactsContract.Contacts.PHOTO_ID);
+            int idColumn = cur.getColumnIndex(ContactsContract.Contacts._ID);
+            String imagePath; 
+        
+            do {
+                // Get the field values
+                name = cur.getString(nameColumn);
+                imagePath = cur.getString(picColumn);
+                id =  cur.getLong(idColumn);
+               Log.d(TAG, "starred name: " + name);
+               Log.d(TAG, "image: " + imagePath);
+               Uri contentDirUri = ContactsContract.Contacts.CONTENT_URI;
+			Uri contactUri = ContentUris.withAppendedId(contentDirUri, id);
+               ContentResolver resolver = getContentResolver();
+               InputStream photoDataStream = Contacts.openContactPhotoInputStream(resolver,contactUri);
+               Bitmap photo = BitmapFactory.decodeStream(photoDataStream);
+               if (photo != null)
+            	   bitmaps.add(photo);
+            } while (cur.moveToNext());
+            Log.d(TAG, "exiting listmaker");
+            return (Bitmap[]) bitmaps.toArray();
+        }
+		return null;
+    }
+
+}

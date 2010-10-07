@@ -1,0 +1,3 @@
+1286427488610	Extract local variable 'distanceTo'
+1286428701606	Convert local variable 'locationManager' to field
+1286428873610	Convert local variable 'locationListener' to field
